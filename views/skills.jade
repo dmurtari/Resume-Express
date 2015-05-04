@@ -3,12 +3,12 @@ extends layout
 block content
   div.panel.panel-default
     div.panel-body
-      table.table
+      table.table.table-striped
         each skill in skills
           tr
             td
-              img(src="/images/" + skill.image, width="150")
-            td
               h2= skill.title
+            td
+              img(src="/images/" + skill.image, width="100")
             td
               p.center= skill.description
