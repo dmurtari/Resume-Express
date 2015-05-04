@@ -1,5 +1,19 @@
 {
-  "data": [{
+  "data": [
+  	{
+  	  "title": "Anarchy Leader",
+      "associates": "Sith",
+      "company": "Galactic Empire",
+      "time": "2012-Present",
+      "description": "Second in command in Galactic Empire dictaitorship. Key job requirements: rule enforcement."
+    },
+  	{
+  	  "title": "Jedi Apprentince",
+      "associates": "Jedi",
+      "company": "The Old Republic",
+      "time": "2008-2012",
+      "description": "Shadow a Jedi Knight and learn the ways of the force. [Left job because too demanding, didn't agree with values.]"
+    }
     
-    }]
+    ]
 }
