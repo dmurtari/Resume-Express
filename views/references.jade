@@ -1,15 +1,16 @@
 extends layout
 
 block content
-  h3 References
-  each item in references   
-    h4= item.title
-    div.row
-      div.three.columns
-      div.seven.columns
-        = item.company
-      div.seven.columns
-        = item.description
-      div.seven.columns
-        = item.email
+  div.panel.panel-default
+    div.panel-body
+      each item in references   
+        h4= item.title
+        div.row
+          div.three.columns
+          div.seven.columns
+            = item.company
+          div.seven.columns
+            = item.description
+          div.seven.columns
+            = item.email
 
