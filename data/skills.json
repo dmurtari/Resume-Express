@@ -1,5 +1,17 @@
 {
-  "data": [{
-    
-    }]
+  "data": [
+    {
+      "image": "01_Hadoop_full.jpg",
+      "title": "Hadoop",
+      "description": "Basic knowledge of Hadoop to store and process large amount of data on the Rebels. Familiar with how to write map-reduce jobs and how to efficiently look at large quantities of data"
+    },{
+      "image": "nodejs.png",
+      "title": "NodeJS",
+      "description": "In depth understanding of NodeJS for building websites. Used NodeJS frequently for designing and building websites for finding Rebels, as well as for longer projects. "
+    },{
+      "image": "MongoDB.png",
+      "title": "Mongo",
+      "description": "Comfortable with using and managing Mango databases. Very familiar with integrating Mongo with apps written in NodsJS for storing data related to the Death Star's staff. Basic understanding of administrating Mongo Databases"
+    }
+  ]
 }
