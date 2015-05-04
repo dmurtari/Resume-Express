@@ -19,12 +19,9 @@ app.get('/', function(req, res) {
     res.render('index.jade')
 })
 
-// load routes
-app.get('/experience', function(req, res) {
-	res.render('.jade', {
-	experience: experience
-	})
-})
+require('./routes/skills')(app)
+require('./routes/experience')(app)
+
 
 app.set('port', (process.env.PORT || 3000))
 
