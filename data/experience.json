@@ -1,5 +1,19 @@
 {
-  "data": [{
+  "data": [
+  	{
+  	  "title": "Anarchy Leader",
+      "associates": "Sith",
+      "company": "Galactic Empire",
+      "time": "2012-Present",
+      "description": "Second in command in Galactic Empire dictaitorship. Key job requirements: rule enforcement."
+    },
+  	{
+  	  "title": "Anarchy Leader II",
+      "associates": "Sith",
+      "company": "Galactic Empire",
+      "time": "2012-Present",
+      "description": "Second in command in Galactic Empire dictaitorship. Key job requirements: rule enforcement."
+    }
     
-    }]
+    ]
 }
