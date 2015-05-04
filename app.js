@@ -22,6 +22,7 @@ app.get('/', function(req, res) {
 require('./routes/skills')(app)
 require('./routes/experience')(app)
 require('./routes/references')(app)
+require('./routes/projects')(app)
 
 
 app.set('port', (process.env.PORT || 3000))
