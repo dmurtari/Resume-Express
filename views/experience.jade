@@ -1,9 +1,11 @@
 extends layout
 
 block content
-	each item in experience
-		h2= item.title
-		h3= item.company
-		h4= item.associates
-		p= item.time
-		p= item.description
+  div.panel.panel-default
+    div.panel-body
+      each item in experience
+        h2= item.title
+        h3= item.company
+        h4= item.associates
+        p= item.time
+        p= item.description
