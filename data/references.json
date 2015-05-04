@@ -1,5 +1,21 @@
 {
-  "data": [{
-    
-    }]
+	"data":[
+	{
+		"title": "Emperor Palpatine",
+		"company": "Galactic Empire",
+    	"description": "Emperor",
+    	"email": "emperor.palpatine@evilgalacticempire.com"
+	},
+	{
+		"title": "Tuskan Raider 32b",
+		"company": "Eurraralhhhh- uhr uhr uhr uhr",
+    	"description": "Tuskan Raider",
+    	"email": "uhruhruhr@eurraralhhh.org"
+	},
+	{
+		"title": "Qui-Gon Jinn",
+		"company": "Jedi Order",
+    	"description": "Jedi",
+    	"email": "qui.gon@midechlorians.com"
+	}]
 }
