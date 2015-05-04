@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	table.table
+		tr
+			th 
+				h1 project
+			th description
+			th coolness
+			th affiliation
+			each item in projects
+				tr
+					td= item.Project
+					td= item.Description
+					td= item.Coolness
+					td= item.Affiliation
+
+
+

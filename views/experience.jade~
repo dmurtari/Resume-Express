@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	each item in experience
+	each item in projects
 		h2= item.title
 		h3= item.company
 		h4= item.associates

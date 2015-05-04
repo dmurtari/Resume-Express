@@ -1,0 +1,12 @@
+module.exports = function(app) {
+
+  app.get('/projects', function(req, res) {
+
+    var skills = app.data.skills
+    
+    res.render('projects.jade', {
+      skills: skills
+    })
+  })
+
+}
