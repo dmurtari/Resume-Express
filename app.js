@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
 })
 
 // load routes
-
+require('./routes/skills')(app)
 
 app.set('port', (process.env.PORT || 3000))
 
