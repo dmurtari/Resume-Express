@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.panel.panel-default
+    div.panel-body
+      table.table
+        each skill in skills
+          tr
+            td
+              img(src="/images/" + skill.image, width="150")
+            td
+              h2= skill.title
+            td
+              p.center= skill.description
