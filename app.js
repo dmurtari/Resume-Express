@@ -20,7 +20,11 @@ app.get('/', function(req, res) {
 })
 
 // load routes
-
+app.get('/experience', function(req, res) {
+	res.render('.jade', {
+	experience: experience
+	})
+})
 
 app.set('port', (process.env.PORT || 3000))
 
